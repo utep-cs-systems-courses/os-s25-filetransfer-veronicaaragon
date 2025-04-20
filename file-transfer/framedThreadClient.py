@@ -3,7 +3,7 @@ import struct
 import os
 
 SERVER_HOST = "127.0.0.1"
-SERVER_PORT = 12345
+SERVER_PORT = 12345 #9999 #8888
 
 def send_framed(sock, data: bytes):
     length = struct.pack("!I", len(data))

@@ -4,7 +4,7 @@ import os
 import struct
 
 HOST = "0.0.0.0"
-PORT = 12345
+PORT = 50001
 SERVER_FILES_DIR = "server-files"
 
 os.makedirs(SERVER_FILES_DIR, exist_ok=True)
